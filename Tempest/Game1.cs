@@ -12,72 +12,73 @@ namespace Tempest
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        spriteClass spriteOBJ;
+        private Texture2D MySprite; // переменная для хранения спрайта
+        private Vector2 position = new Vector2(150, 200); // позиция на экране
+
+
+        spriteComp gameObject;// компонент
+        private Texture2D texture;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
 
-        /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
-        /// </summary>
+    
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+          
 
             base.Initialize();
         }
 
-        /// <summary>
-        /// LoadContent will be called once per game and is the place to load
-        /// all of your content.
-        /// </summary>
+     
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
+           
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            MySprite = Content.Load<Texture2D>("HeroSprite"); //загузка спрайта
+             spriteOBJ = new spriteClass(Content.Load<Texture2D>("tree"), new Vector2(350, 50));//загрузка спрайта объекта
 
-            // TODO: use this.Content to load your game content here
+
+            Services.AddService(typeof(SpriteBatch), spriteBatch);
+            texture = Content.Load<Texture2D>("HeroSprite");
+            CreateNewObject();
         }
-
-        /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// game-specific content.
-        /// </summary>
+        protected void CreateNewObject() // ля создания объекта gameObject.
+        {
+            gameObject = new spriteComp(this, ref texture,
+                new Rectangle(18, 9, 17, 30), new Vector2(300, 150));
+            Components.Add(gameObject);
+        }
         protected override void UnloadContent()
         {
-            // TODO: Unload any non ContentManager content here
+
         }
 
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+      
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
 
             base.Update(gameTime);
         }
 
-        /// <summary>
-        /// This is called when the game should draw itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+      
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            spriteBatch.Draw(MySprite, position, Color.White); //отрисовка спрайта
+            spriteBatch.Draw(spriteOBJ.spTexture, spriteOBJ.spPosition, Color.White); //отрисовка спрайта объекта
+            base.Draw(gameTime); //отрисовка компонента 
+            spriteBatch.End();
 
-            base.Draw(gameTime);
+          
         }
     }
 }
