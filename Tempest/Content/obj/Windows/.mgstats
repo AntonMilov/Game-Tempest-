@@ -1,3 +1,2 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/GameMonogame/Game-Tempest-/Tempest/Content/HeroSprite.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/HeroSprite.xnb","TextureProcessor","Texture2DContent",4703,19117,0,1765303
-"C:/GameMonogame/Game-Tempest-/Tempest/Content/tree.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/tree.xnb","TextureProcessor","Texture2DContent",62427,369269,0,032909
+"C:/GameMonogame/Game-Tempest-/Tempest/Content/HeroSprite.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/HeroSprite.xnb","TextureProcessor","Texture2DContent",4703,19117,1,247459

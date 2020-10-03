@@ -16,7 +16,6 @@ C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\SharpDX.DXGI.xml
 C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
 C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
 C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\SharpDX.XInput.xml
-C:\GameMonogame\Game-Tempest-\Tempest\obj\x86\Debug\Tempest.csprojAssemblyReference.cache
 C:\GameMonogame\Game-Tempest-\Tempest\obj\x86\Debug\Tempest.csproj.CoreCompileInputs.cache
 C:\GameMonogame\Game-Tempest-\Tempest\obj\x86\Debug\Tempest.csproj.CopyComplete
 C:\GameMonogame\Game-Tempest-\Tempest\obj\x86\Debug\Tempest.exe
