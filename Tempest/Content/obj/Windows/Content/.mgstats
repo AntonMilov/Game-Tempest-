@@ -1,1 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/GameMonogame/Game-Tempest-/Tempest/Content/Bonus.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/Content/Bonus.xnb","TextureProcessor","Texture2DContent",5706,38485,7,478015
+"C:/GameMonogame/Game-Tempest-/Tempest/Content/Enemy.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/Content/Enemy.xnb","TextureProcessor","Texture2DContent",9737,40085,0,0468756
+"C:/GameMonogame/Game-Tempest-/Tempest/Content/HeroSprite.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/Content/HeroSprite.xnb","TextureProcessor","Texture2DContent",2810,25685,0,0408903
+"C:/GameMonogame/Game-Tempest-/Tempest/Content/metal.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/Content/metal.xnb","TextureProcessor","Texture2DContent",18451,40085,0,0059843
+"C:/GameMonogame/Game-Tempest-/Tempest/Content/shoot.png","C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/Content/shoot.xnb","TextureProcessor","Texture2DContent",3054,9685,0,0448792

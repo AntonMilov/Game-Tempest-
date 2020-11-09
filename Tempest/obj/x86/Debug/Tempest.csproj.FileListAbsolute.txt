@@ -26,3 +26,4 @@ C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\Content\metal.xnb
 C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\Content\Bonus.xnb
 C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\Content\Enemy.xnb
 C:\GameMonogame\Game-Tempest-\Tempest\bin\Windows\x86\Debug\Content\shoot.xnb
+C:\GameMonogame\Game-Tempest-\Tempest\obj\x86\Debug\Tempest.csprojAssemblyReference.cache

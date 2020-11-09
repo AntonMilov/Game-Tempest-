@@ -32,7 +32,9 @@ namespace Tempest
         Texture2D floarMetal;
         Texture2D bonus;
         Texture2D enemy;
-        Texture2D shoot;        Rectangle RectangleSprite = new Rectangle(0, 0, 100, 100);        public GameTempest()
+        Texture2D shoot;
+        Rectangle RectangleSprite = new Rectangle(0, 0, 100, 100);
+        public GameTempest()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
