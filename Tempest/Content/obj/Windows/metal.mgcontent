@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/GameMonogame/Game-Tempest-/Tempest/Content/HeroSprite.png</SourceFile>
-  <SourceTime>2020-11-06T17:29:46.5148823+03:00</SourceTime>
-  <DestFile>C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/HeroSprite.xnb</DestFile>
-  <DestTime>2020-11-09T14:40:05.1617119+03:00</DestTime>
+  <SourceFile>C:/GameMonogame/Game-Tempest-/Tempest/Content/metal.png</SourceFile>
+  <SourceTime>2020-11-02T17:26:03.8756215+03:00</SourceTime>
+  <DestFile>C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/metal.xnb</DestFile>
+  <DestTime>2020-11-09T14:40:05.1746771+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T19:35:54+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

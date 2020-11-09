@@ -4,10 +4,19 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/GameMonogame/Game-Tempest-/Tempest/Content/Bonus.png</File>
+    <File>C:/GameMonogame/Game-Tempest-/Tempest/Content/Enemy.png</File>
     <File>C:/GameMonogame/Game-Tempest-/Tempest/Content/HeroSprite.png</File>
+    <File>C:/GameMonogame/Game-Tempest-/Tempest/Content/metal.png</File>
+    <File>C:/GameMonogame/Game-Tempest-/Tempest/Content/shoot.png</File>
     <File>C:/GameMonogame/Game-Tempest-/Tempest/Content/tree.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

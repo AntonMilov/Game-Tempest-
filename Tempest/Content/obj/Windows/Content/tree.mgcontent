@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/GameMonogame/Game-Tempest-/Tempest/Content/tree.png</SourceFile>
-  <SourceTime>2020-09-28T12:49:53.1336307+03:00</SourceTime>
+  <SourceTime>2020-10-03T15:31:46.6004273+03:00</SourceTime>
   <DestFile>C:/GameMonogame/Game-Tempest-/Tempest/Content/bin/Windows/Content/tree.xnb</DestFile>
-  <DestTime>2020-09-28T12:50:49.6605191+03:00</DestTime>
+  <DestTime>2020-10-12T11:54:08.0710765+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T19:35:54+03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
